@@ -112,7 +112,7 @@ a{
     border: none;
     border-radius: 8px;
     cursor: pointer;
-    transition: background 0.3s, transform 0.2s;
+    transition: background- 0.3s, transform 0.2s;
 }
 #more{
     background-color: rgb(53, 52, 52);
