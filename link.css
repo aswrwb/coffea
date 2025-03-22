@@ -91,14 +91,6 @@ body{
 .circle-image {
     width: 150px; /* Adjust the size */
     height: 150px; /* Adjust the size to be the same as width for a perfect circle */
-    border-radius: 50%;
+    border-radius: 100%;
     object-fit: cover; /* Ensures the image covers the circle area */
   }
-  .circle-image {
-    width: 50px; /* Set the width */
-    height: 50px; /* Set the height to the same value */
-    border-radius: 50%; /* This makes it a circle */
-    object-fit: cover; /* Ensure the image covers the circle */
-    display: block; /* Remove unwanted space below the image */
-  }
-  
