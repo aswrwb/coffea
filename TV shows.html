@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="tvshow.css">
+    <title>Netflix</title>
+</head>
+<style>
+    *{
+    font-family: sans-serif;
+}
+body{
+    background-color: rgb(36, 36, 36);
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 30px;
+}
+header a{
+    color: white;
+    text-decoration: none;
+    margin: 8px;
+}
+header a.active{
+   color: rgb(255, 67, 67);
+   text-decoration: underline;
+}
+header a:hover{
+   color: rgb(255, 67, 67);
+}
+.logo{
+    color: red;
+    font-weight: bold;
+    font-size: 35px;
+}
+.title{
+    font-size: 50px;
+    color: white;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+select{
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgb(70, 70, 70);
+    border: none;
+    color: rgb(165, 164, 164);
+}
+.top2 a{
+    margin: 7px;
+    color: white;
+}
+.grid{
+    border-bottom: 2px solid red;
+}
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    text-align: left;
+    padding-left: 30px;
+    margin-bottom: 50px;}
+
+
+    .Carosle{
+      display: flex;
+      gap: 10px;
+      margin-top: 10px;
+}
+.movie{
+    width: 190px;
+    height: 180px;
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+}
+</style>
+<body>
+    <header>
+        <div class="logo">NETFLIX</div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a class="active">TV Shows</a>
+            <a href="movies">Movies</a>
+            <a href="nap">New & Popular</a>
+            <a href="ml">My List</a>
+        </nav>
+        <div class="other">
+            <a href="search">Search</a>
+            <a href="noti">Notification</a>
+            <a href="pf">Profile</a>
+        </div>
+    </header>
+    <main>
+        <p class="title">TV Shows</p>
+        <div class="top">
+            <div class="top1">
+                <select>
+                    <option>Genres</option>
+                </select>
+                <select>
+                    <option>Sort</option>
+                </select>
+            </div>
+            <div class="top2">
+                <a class="grid">Grid</a>
+                <a class="list">List</a>
+            </div>
+        </div>
+    </main>
+    <h3 class="Pop">Popular on Netflix</h3>
+    <div class="Carosle">
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+    </div>   
+         <h3 class="Pop">Trending Now</h3>
+    <div class="Carosle">
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+    </div>   
+         <h3 class="Pop"> Top Rated</h3>
+    <div class="Carosle">
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+        <div class="movie"></div>
+    </div>
+</body>
+</html>
